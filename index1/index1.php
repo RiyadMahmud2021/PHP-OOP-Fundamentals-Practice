@@ -1,5 +1,21 @@
 <!-- Class, Property, Method and Object -->
+<!-- 
+    => What is $this in PHP? (https://www.phptutorial.net/php-oop/php-this/)
+    A: 
+    In PHP, $this keyword references the current object of the class. 
+    The $this keyword allows you to access the properties and methods of the current object within the class using the object operator (->):
+    
+    $this->property
+    $this->method() 
 
+    The $this keyword is only available within a class. It doesn’t exist outside of the class. 
+    If you attempt to use the $this outside of a class, you’ll get an error.
+    
+    When you access an object property using the $this keyword, you use the $ with the this keyword only. 
+    And you don’t use the $ with the property name. 
+    For example:       $this->balance
+
+-->
 <!-- Header include-->
 <?php include 'header.php'; ?>
 <!-- Header -->

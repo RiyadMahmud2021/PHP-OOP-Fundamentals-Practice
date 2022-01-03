@@ -25,8 +25,8 @@ means the string does not have any thing.
 
 <?php 
 
-include "headerz.php"; 
-include "functions.php"; 
+    include "headerz.php"; 
+    include "functions.php"; 
 
 ?>
 
@@ -34,7 +34,7 @@ include "functions.php";
 <section class="mainContent">
 <form  action="" method="POST">
                 
-        <table >
+        <table > 
             <tr>
                 <td>Enter First Number </td>
                 <td><input type="number" name="num1"/></td>
@@ -61,13 +61,14 @@ include "functions.php";
         echo "<span style='color:blue'>blue</span>";  
     }
     else{
-    $FirstCal = new Calculation;
-    $FirstCal -> add($numOne,$numTwo);
-    $FirstCal -> sub($numOne,$numTwo);
-    $FirstCal -> mul($numOne,$numTwo);
-    $FirstCal -> div($numOne,$numTwo);
+        $FirstCal = new Calculation;
+        $FirstCal -> add($numOne,$numTwo);
+        $FirstCal -> sub($numOne,$numTwo);
+        $FirstCal -> mul($numOne,$numTwo);
+        $FirstCal -> div($numOne,$numTwo);
     }
 }
 
 ?>
-<?php include "footerz.php";?>
+    <?php include "footerz.php";
+?>
