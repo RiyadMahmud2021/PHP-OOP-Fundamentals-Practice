@@ -5,6 +5,7 @@ __destruct(); // script loadding a __destruct(); sobar ses a load hoy
 __get($property); // work for udefined property automatically
 __set($property,$value); // 
 __call($method, $arg_array); // 
+__autoload($class_name)
 -->
 
 <?php
